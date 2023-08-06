@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+}
+
+#joinButton,
+#sendButton,
+#input {
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px rgb(101, 0, 209);
+}
+
+#joinButton,
+#sendButton {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgb(236, 214, 250);
+}
+
+#messages {
+  list-style-type: none;
+  padding: 10px;
+}
